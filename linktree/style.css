@@ -1,0 +1,110 @@
+
+.container{
+    font-family: 'Bebas Neue', cursive;
+    width: 100%;
+    height: 100vh;
+    background-color: #121212;
+    margin: auto;
+    padding : 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+.profile{
+    width: 150px;
+    height: 150px;
+    background-image: url(img/image.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    margin: auto;
+}
+.container h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+    color: #ffffff;
+}
+.container h2{
+    text-align: center;
+    margin-top: 5px;
+    color: #ffffff;
+}
+.container hr{
+    width: 200px;
+    border-top: 2px solid white;
+}
+.bar{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.bar ul li {
+    margin-bottom: 10px;
+}
+.bar li:hover{
+    background-color:#b3b3b3;
+    cursor: pointer;
+}
+.bar li{
+    text-decoration: none;
+    margin: auto;
+    display: block;
+    width: 300px;
+    height: 50px;
+    border-radius: 200px;
+    background-color: #535353;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    position: relative;
+    transition: 1s;
+}
+.bar .twitter{
+    
+    width: 30px;
+    height: 30px;
+    margin-top: 11px;
+}
+ul li span {
+    position: absolute;
+    display: block;
+    width: 300px;
+    height: 50px;
+    color: white;
+    border-radius: 200px;
+    top: 0px;
+    opacity: 0;
+    transition: 1s;
+}
+.bar .instagram{
+    width: 25px;
+    height: 25px;
+    margin-top: 8px;
+}
+ul li:hover .twitter1 {
+    opacity: 1;   
+    background-color: #55acee;
+}
+ul li:hover .insta {
+    opacity: 1;   
+    background-color: #ea05cf;
+}
+ul li:hover .steam {
+    opacity: 1;   
+    background-color: #1b2838;
+}
+ul li:hover .linkedin{
+    opacity: 1;   
+    background-color: #0072b1;
+}
+ul li:hover .twitch{
+    opacity: 1;   
+    background-color: #9146FF;
+}
+.saul {
+    font-family: 'Dancing Script', cursive;
+    display: block;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
